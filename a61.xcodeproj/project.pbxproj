@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1555068F260EB75E00BC243A /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1555068E260EB75E00BC243A /* LoginScreen.swift */; };
 		156840BE26082D4100C62BB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156840BD26082D4100C62BB3 /* AppDelegate.swift */; };
 		156840C026082D4100C62BB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156840BF26082D4100C62BB3 /* SceneDelegate.swift */; };
 		156840C226082D4100C62BB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156840C126082D4100C62BB3 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1555068E260EB75E00BC243A /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		156840BA26082D4100C62BB3 /* a61.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a61.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		156840BD26082D4100C62BB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		156840BF26082D4100C62BB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				15DA7829260C26AB00814DD4 /* AddEventScreen.swift */,
 				15DA782C260C30E700814DD4 /* EventListView.swift */,
 				15DA782F260C36F000814DD4 /* SupplierListView.swift */,
+				1555068E260EB75E00BC243A /* LoginScreen.swift */,
 			);
 			path = a61;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				15747FC3260BB3EE00888F96 /* req.swift in Sources */,
 				15DA782D260C30E700814DD4 /* EventListView.swift in Sources */,
 				156840C226082D4100C62BB3 /* ViewController.swift in Sources */,
+				1555068F260EB75E00BC243A /* LoginScreen.swift in Sources */,
 				15DA782A260C26AB00814DD4 /* AddEventScreen.swift in Sources */,
 				156840F02609849D00C62BB3 /* Doctor.swift in Sources */,
 				15747FC0260BB08D00888F96 /* a5-main.swift in Sources */,

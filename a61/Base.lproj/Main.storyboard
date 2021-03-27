@@ -75,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944.92753623188412" y="87.723214285714278"/>
+            <point key="canvasLocation" x="887" y="88"/>
         </scene>
         <!--Screen2 View Controller-->
         <scene sceneID="X62-PE-tvN">
@@ -435,6 +435,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cxn-Fg-BMW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2648" y="796"/>
+        </scene>
+        <!--AppHome-->
+        <scene sceneID="qEd-Vi-TMf">
+            <objects>
+                <viewController storyboardIdentifier="LoginScreen" id="mle-pp-1QT" customClass="LoginScreen" customModule="a61" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qjx-gy-awJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvQ-C3-qAt">
+                                <rect key="frame" x="163" y="513" width="88" height="30"/>
+                                <state key="normal" title="Add Supplier"/>
+                                <connections>
+                                    <action selector="addSupButton:" destination="mle-pp-1QT" eventType="touchUpInside" id="42P-sV-48B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J19-MG-DdP">
+                                <rect key="frame" x="172" y="589" width="70" height="30"/>
+                                <state key="normal" title="Add Event"/>
+                                <connections>
+                                    <action selector="addEventButton:" destination="mle-pp-1QT" eventType="touchUpInside" id="IHm-M8-Zox"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faH-LK-RKV">
+                                <rect key="frame" x="165.5" y="627" width="83" height="30"/>
+                                <state key="normal" title="View Events"/>
+                                <connections>
+                                    <action selector="viewEventsButton:" destination="mle-pp-1QT" eventType="touchUpInside" id="Tir-Hd-Z2J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4e-O4-6AR">
+                                <rect key="frame" x="156" y="551" width="102" height="30"/>
+                                <state key="normal" title="View Suppliers"/>
+                                <connections>
+                                    <action selector="viewSuppliersButton:" destination="mle-pp-1QT" eventType="touchUpInside" id="KHA-MH-Oaa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5Z-Yd-WOP">
+                                <rect key="frame" x="167.5" y="475" width="79" height="30"/>
+                                <state key="normal" title="Add Person"/>
+                                <connections>
+                                    <action selector="addPersonButton:" destination="mle-pp-1QT" eventType="touchUpInside" id="Rgh-df-ZLc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DJW-JT-HPo"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X5Z-Yd-WOP" firstAttribute="centerX" secondItem="qjx-gy-awJ" secondAttribute="centerX" id="16i-uX-rPg"/>
+                            <constraint firstItem="J4e-O4-6AR" firstAttribute="centerX" secondItem="qjx-gy-awJ" secondAttribute="centerX" id="5Re-Jt-ljC"/>
+                            <constraint firstItem="J4e-O4-6AR" firstAttribute="centerY" secondItem="qjx-gy-awJ" secondAttribute="centerY" constant="118" id="AkD-OT-6qT"/>
+                            <constraint firstItem="X5Z-Yd-WOP" firstAttribute="centerY" secondItem="qjx-gy-awJ" secondAttribute="centerY" constant="42" id="MYv-X6-6dT"/>
+                            <constraint firstItem="J19-MG-DdP" firstAttribute="centerY" secondItem="qjx-gy-awJ" secondAttribute="centerY" constant="156" id="P3p-9o-MUZ"/>
+                            <constraint firstItem="faH-LK-RKV" firstAttribute="centerY" secondItem="qjx-gy-awJ" secondAttribute="centerY" constant="194" id="RDJ-5e-C4r"/>
+                            <constraint firstItem="faH-LK-RKV" firstAttribute="centerX" secondItem="qjx-gy-awJ" secondAttribute="centerX" id="Zex-nn-RKr"/>
+                            <constraint firstItem="MvQ-C3-qAt" firstAttribute="centerX" secondItem="qjx-gy-awJ" secondAttribute="centerX" id="oj2-qk-8Wm"/>
+                            <constraint firstItem="MvQ-C3-qAt" firstAttribute="centerY" secondItem="qjx-gy-awJ" secondAttribute="centerY" constant="80" id="wWM-Pl-sZf"/>
+                            <constraint firstItem="J19-MG-DdP" firstAttribute="centerX" secondItem="qjx-gy-awJ" secondAttribute="centerX" id="zh7-vE-3Xi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="AppHome" id="r15-mO-LpM"/>
+                    <connections>
+                        <outlet property="button1" destination="X5Z-Yd-WOP" id="VDm-pB-h7w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mto-92-fhb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="887" y="796"/>
         </scene>
     </scenes>
     <resources>
